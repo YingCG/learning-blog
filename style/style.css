@@ -1,3 +1,7 @@
+* {
+  font-family: "Courier New", Courier, monospace;
+}
+
 .wrapper {
   width: 100%;
   min-height: 10rem;
@@ -13,5 +17,21 @@
 }
 
 .navbar {
-  background-color: ;
+  padding: 0.5rem;
+  font-weight: 600;
+}
+
+.navbar a {
+  background-color: rgb(241, 218, 150);
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 0.5rem 1rem;
+  color: cornflowerblue;
+}
+.container {
+  background-color: rgb(219, 184, 252);
+  padding: 1rem;
+}
+
+.wrapper > .small {
+  background-color: beige;
 }
