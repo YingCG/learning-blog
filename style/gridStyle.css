@@ -1,0 +1,22 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 1rem;
+  background-color: #dcbfff;
+  padding: 10px;
+}
+
+.grid-item {
+  background-color: #f1eaff;
+  font-size: 1rem;
+  padding: 1rem;
+}
+
+.peoples {
+  display: flex;
+  justify-content: center;
+}
+.peoples > img {
+  max-width: 8rem;
+  height: auto;
+}

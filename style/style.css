@@ -2,14 +2,14 @@
   font-family: "Courier New", Courier, monospace;
 }
 
-.wrapper {
+.alltogether {
   width: 100%;
   min-height: 10rem;
   display: flex;
   flex-wrap: wrap;
 }
-.wrapper > div {
-  flex: 1 1 150px;
+.alltogether > div {
+  /* flex: 1 1 150px; */
   background-color: cornflowerblue;
   border-style: solid;
   border-color: black;
@@ -34,4 +34,10 @@
 
 .wrapper > .small {
   background-color: beige;
+}
+
+.wrapper > .smallsmall {
+  color: white;
+  background-color: palevioletred;
+  border: 0;
 }

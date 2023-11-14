@@ -5,43 +5,45 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Flex</title>
     <link href="./style/style.css" rel="stylesheet" type="text/css" />
+    <link href="./style/nextStyle.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
     <h1>Flex</h1>
     <nav class="navbar">
       <a href="index.html">Setting UP</a>
-      <a href="./flex.html">Style</a>
+      <a href="./flex.html">Flex</a>
+      <a href="./grid.html">Grid</a>
     </nav>
-
-    <p>
-      An efficient way to layout, align and distribute space among items in a
-      container, even when their size is unknown and/or dynamic (thus the word
-      “flex”).
-    </p>
-    <p>
-      Flexbox layout is most appropriate to the components of an application,
-      and small-scale layouts, while the Grid layout is intended for larger
-      scale layouts.
-    </p>
-    <div class="container">
-      We put display: flex in the parent class.
-      <div class="wrapper">
-        <div>Monday</div>
-        <div>Tuesday</div>
-        <div>Wednesday</div>
-        <div>Thursday</div>
-        <div>Friday</div>
-
-        <div class="wrapper small">
-          <div>One</div>
-          <div>Two</div>
-          <div>Three</div>
-          <div>Four</div>
-          <div>Five</div>
-          <div>Six</div>
-          <div>Seven</div>
-        </div>
+    <div class="wrap-containter">
+      <h1>Checkout how to use Display: Flex to put them next to each other</h1>
+      <div class="peoples">
+        <img class="avatar" src="./assets/5556468.png" alt="Male Avatar" />
+        <img class="avatar" src="./assets/5556499.png" alt="Male Avatar" />
+        <img class="avatar" src="./assets/5556503.png" alt="Male Avatar" />
+        <img class="avatar" src="./assets/5556505.png" alt="Male Avatar" />
+        <img class="avatar" src="./assets/5556529.png" alt="Male Avatar" />
+        <img class="avatar" src="./assets/5556554.png" alt="Male Avatar" />
+        <img class="avatar" src="./assets/5556558.png" alt="Male Avatar" />
       </div>
+        <div class="container">
+          <h3>
+            Flex is an efficient way to layout, align and distribute space among items in a
+            container, even when their size is unknown and/or dynamic (thus the word
+            “flex”).
+          </h3>
+          <p>
+            Flexbox layout is most appropriate to the components of an application,
+            and small-scale layouts, while the Grid layout is intended for larger
+            scale layouts.
+          </p>
+          We put display: flex in the parent class.
+          <div class="alltogether">
+            <div>Monday</div>
+            <div>Tuesday</div>
+            <div>Wednesday</div>
+            <div>Thursday</div>
+            <div>Friday</div>
+          </div>
     </div>
   </body>
 </html>
