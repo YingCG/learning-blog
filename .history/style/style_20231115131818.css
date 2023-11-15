@@ -4,7 +4,6 @@
 
 body {
   width: 100vw;
-  margin: auto;
 }
 
 .alltogether {
@@ -33,13 +32,11 @@ body {
   color: cornflowerblue;
 }
 .container {
-  width: 100%;
   background-color: rgb(219, 184, 252);
   padding: 1rem;
 }
 
 .wrapper > .small {
-  width: 100%;
   background-color: beige;
 }
 

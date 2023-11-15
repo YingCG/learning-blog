@@ -1,7 +1,3 @@
-h4 {
-  color: #7743db;
-  margin-block-end: 0;
-}
 .grid-container {
   display: grid;
   grid-template-columns: auto auto auto;
@@ -22,7 +18,7 @@ h4 {
   flex-wrap: wrap;
 }
 .peoples > img {
-  width: 4.5rem;
+  width: 4rem;
   height: auto;
 }
 
@@ -34,10 +30,4 @@ h4 {
   color: white;
   background: #2b3499;
   height: 50px;
-}
-
-.htmlcode {
-  background-color: white;
-  font-size: 10px;
-  padding: 10px;
 }
